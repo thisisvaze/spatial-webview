@@ -1,0 +1,34 @@
+{
+  "name": "com.thisisvaze.spatialwebview",
+  "version": "0.1.0",
+  "displayName": "Spatial WebView",
+  "description": "Quiet web, reader, and video panels for Unity XR across Meta Quest (2, Pro, 3, 3S), OpenXR headsets (Pico, Android XR, Vive), and AR/VR glasses. Uses hardware compositor surfaces or zero-copy direct buffers with no C++ native plugin.",
+  "unity": "6000.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisisvaze/spatial-webview.git"
+  },
+  "keywords": [
+    "xr",
+    "openxr",
+    "quest",
+    "android-xr",
+    "webview",
+    "browser",
+    "youtube",
+    "reader",
+    "spatial"
+  ],
+  "author": {
+    "name": "Aaditya Vaze",
+    "url": "https://github.com/thisisvaze"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0",
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.modules.subsystems": "1.0.0"
+  }
+}

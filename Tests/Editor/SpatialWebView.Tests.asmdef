@@ -1,0 +1,13 @@
+{
+  "name": "SpatialWebView.Tests",
+  "rootNamespace": "SpatialWebView.Tests",
+  "references": [
+    "SpatialWebView.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

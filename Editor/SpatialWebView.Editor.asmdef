@@ -1,0 +1,27 @@
+{
+  "name": "SpatialWebView.Editor",
+  "rootNamespace": "SpatialWebView.Editor",
+  "references": [
+    "SpatialWebView.Runtime",
+    "Oculus.VR",
+    "UnityEngine.UI",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.meta.xr.sdk.core",
+      "expression": "",
+      "define": "SPATIAL_WEBVIEW_META_OVR"
+    }
+  ],
+  "noEngineReferences": false
+}
